@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300;400;600;800&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.container-count{
+    @apply max-w-[1320px] mx-auto px-5;
+}
+
+.main-textcolor{
+    @apply text-[#111517] dark:text-white;
+}
+
+.main-body-bg{
+    @apply bg-[#fafafa] dark:bg-[#202c36]
+}
+
+.main-header-bg{
+    @apply bg-white dark:bg-[#2b3844];
+}
